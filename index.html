@@ -127,7 +127,7 @@
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
-            'X-Master-Key': '$2a$10$XYZ123' // Remplace par ta clé API
+            'X-Master-Key': '$2a$10$Z8rCi3Q6Xc7zBQyxt5NKB.iOD3DpFY5fEOxHcbf5yEBtl2wDWaN2W' // Remplace par ta clé API
           },
           body: JSON.stringify({data, lastModified: Date.now()})
         });
@@ -142,7 +142,7 @@
       try {
         const response = await fetch(`${this.baseUrl}/${userId}`, {
           headers: {
-            'X-Master-Key': '$2a$10$XYZ123' // Remplace par ta clé API
+            'X-Master-Key': '$2a$10$Z8rCi3Q6Xc7zBQyxt5NKB.iOD3DpFY5fEOxHcbf5yEBtl2wDWaN2W' // Remplace par ta clé API
           }
         });
         if (response.ok) {
